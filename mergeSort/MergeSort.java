@@ -1,4 +1,4 @@
-package com.coddicted.mergeSort;
+package com.coddicted.sort;
 
 public class MergeSort {
 
@@ -63,7 +63,7 @@ public class MergeSort {
 
 	public static void main(String[] args) {
 		int[] arr = {2, 4, 3, 6, 1, 19, 10};
-		// arr = new int[]{6, 5, 4, 3, 2, 1};
+		//arr = new int[]{6, 5, 4, 3, 2, 1, 1};
 		mergeSort(arr, 0, arr.length-1);
 		for(int a : arr)
 			System.out.print(a + " ");
